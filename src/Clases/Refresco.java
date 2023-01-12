@@ -1,6 +1,6 @@
 package Clases;
 
-public class Refresco {
+public class Refresco extends Articulo {
 private String sabor;
 private boolean zumo;
 private boolean gaseoso;
@@ -32,5 +32,10 @@ public void setCantidadAzucar(int cantidadAzucar) {
 
 public void visualizarPropiedades() {
 
+}
+
+public boolean esSaludable() {
+	return false;
+	
 }
 }
